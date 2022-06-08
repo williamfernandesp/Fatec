@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfólio</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="full-header">
+      <nav class="toggle-switch">
+        <input type="checkbox" id="toggle" class="toggle" />
+        <label for="toggle"></label>
+        <span>Dark Mode</span>
+      </nav>
+      <header class="header-container">
+        <div>
+          <h1>William Fernandes Pereira</h1>
+          <h2>Front-end Developer</h2>
+          <div class="social-media">
+            <a class="linkedin" href="#">LinkedIn</a>
+            <a class="github" href="#">GitHub</a>
+          </div>
+        </div>
+        <img src="./img/small.jpg" alt="" class="profile-img" />
+      </header>
+    </div>
+    <main class="container">
+      <div class="card-container">
+        <div class="card">
+          <div class="card-wrapper">
+            <h2>Projeto 1</h2>
+            <p>Confira!</p>
+          </div>
+        </div>
+        <div class="card-text">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda
+          suscipit vel vitae quia doloribus esse, neque, quaerat id sit
+          officiis, praesentium eos repellat maiores corporis numquam quibusdam
+          ullam et dolore?
+        </div>
+      </div>
+      <div class="card-container">
+        <div class="card">
+          <div class="card-wrapper">
+            <h2>Projeto 2</h2>
+            <p>Confira!</p>
+          </div>
+        </div>
+        <div class="card-text">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda
+          suscipit vel vitae quia doloribus esse, neque, quaerat id sit
+          officiis, praesentium eos repellat maiores corporis numquam quibusdam
+          ullam et dolore?
+        </div>
+      </div>
+      <div class="card-container">
+        <div class="card">
+          <div class="card-wrapper">
+            <h2>Projeto 3</h2>
+            <p>Confira!</p>
+          </div>
+        </div>
+        <div class="card-text">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda
+          suscipit vel vitae quia doloribus esse, neque, quaerat id sit
+          officiis, praesentium eos repellat maiores corporis numquam quibusdam
+          ullam et dolore?
+        </div>
+      </div>
+    </main>
+    <footer class="footer">Designed by William Fernandes Pereira</footer>
+    <!--Plugin VLibras-->
+    <div vw class="enabled">
+      <div vw-access-button class="active"></div>
+      <div vw-plugin-wrapper>
+        <div class="vw-plugin-top-wrapper"></div>
+      </div>
+    </div>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>
+      new window.VLibras.Widget("https://vlibras.gov.br/app");
+    </script>
+    <!--Fim plugin VLibras-->
+    <script src="script.js"></script>
+  </body>
+</html>
