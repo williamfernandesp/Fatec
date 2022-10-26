@@ -1,0 +1,19 @@
+if( isset($_GET["sucesso"]) && !empty($_GET["sucesso"]))
+{
+    ?> 
+    <div class="alert alert-success">
+        <?php echo $_GET["sucesso"]; ?>
+    </div>
+    <?php 
+}
+
+if( isset($_GET["erro"]) && !empty($_GET["erro"]))
+{
+    ?> 
+    <div class="alert alert-danger">
+        <?php echo $_GET["erro"]; ?>
+    </div>
+    <?php 
+}
+
+?> 
